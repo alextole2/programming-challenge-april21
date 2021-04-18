@@ -33,6 +33,8 @@
           Menu
         </q-item-label>
 
+        <custom-item url="/movies" iconName="local_movies" label="Movies" subLabel="Movies list" />
+
       </q-list>
     </q-drawer>
 
@@ -47,9 +49,13 @@
 <script>
 
 import app from 'src/helpers/App'
+import CustomItem from 'src/components/CustomItem'
 
 export default {
   name: 'MainLayout',
+  components: {
+    CustomItem
+  },
   data () {
     return {
       leftDrawerOpen: false,
