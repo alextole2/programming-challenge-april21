@@ -33,6 +33,7 @@
           Menu
         </q-item-label>
 
+        <custom-item url="/file" iconName="insert_drive_file" label="File" subLabel="File upload" />
         <custom-item url="/movies" iconName="local_movies" label="Movies" subLabel="Movies list" />
         <custom-item url="/ratings" iconName="star_rate" label="Ratings" subLabel="Ratings list" />
 
