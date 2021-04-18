@@ -47,3 +47,8 @@
 /movies-backend/.gradle/7.0/executionHistory/executionHistory.lock
 /movies-backend/.gradle/7.0/executionHistory/executionHistory.bin
 /movies-backend/.gradle/7.0/javaCompile/classAnalysis.bin
+/movies-backend/build/classes/java/main/com/movies/api/movies/controller/MoviesController.class
+/movies-backend/build/classes/java/main/com/movies/api/movies/domain/Movies.class
+/movies-backend/build/classes/java/main/com/movies/api/movies/domain/MoviesDto.class
+/movies-backend/build/classes/java/main/com/movies/api/movies/repository/MoviesRepository.class
+/movies-backend/build/classes/java/main/com/movies/api/movies/service/MoviesService.class

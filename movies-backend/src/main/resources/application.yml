@@ -26,7 +26,7 @@ spring:
     validation-query: SELECT 1
     test-on-borrow: true
 
-# [ AppApi Configuration Section ]
+# [ Api Configuration Section ]
 api:
   baseName: movies_api
   version: 1.0
@@ -51,6 +51,23 @@ logging:
   level.*: DEBUG
 
 # [ AppProfiles Configuration ]
+---
+spring:
+  profiles: test
+  jpa:
+    show-sql: true
+    database: postgresql
+    properties.hibernate.format_sql: true
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://${postgres.hostname:localhost}:${postgres.port:5432}/movies_test
+    username: ${api.datasource.username}
+    password: ${api.datasource.password}
+    driver-class-name: org.postgresql.Driver
+    validation-query: SELECT 1
+    test-on-borrow: true
+endpoints:
+  cors.allowed-origins: http://localhost:3000
 
 ---
 spring:
