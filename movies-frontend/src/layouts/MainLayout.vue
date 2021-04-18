@@ -34,6 +34,7 @@
         </q-item-label>
 
         <custom-item url="/movies" iconName="local_movies" label="Movies" subLabel="Movies list" />
+        <custom-item url="/ratings" iconName="star_rate" label="Ratings" subLabel="Ratings list" />
 
       </q-list>
     </q-drawer>
