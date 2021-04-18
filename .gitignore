@@ -58,6 +58,12 @@
 /movies-backend/build/classes/java/main/com/movies/api/ratings/domain/RatingsDto.class
 /movies-backend/build/classes/java/main/com/movies/api/ratings/repository/RatingsRepository.class
 /movies-backend/build/classes/java/main/com/movies/api/ratings/service/RatingsService.class
+/movies-backend/build/classes/java/main/com/movies/api/core/enums/ErrorType.class
+/movies-backend/build/classes/java/main/com/movies/api/imports/domain/ImportBean.class
+/movies-backend/build/classes/java/main/com/movies/api/imports/controller/ImportController.class
+/movies-backend/build/classes/java/main/com/movies/api/imports/service/ImportService.class
+/movies-backend/build/classes/java/main/com/movies/api/imports/MimeTypes.class
+/movies-backend/build/classes/java/main/com/movies/api/core/exception/ServiceException.class
 
 /movies-frontend/.DS_Store
 /movies-frontend/.thumbs.db
