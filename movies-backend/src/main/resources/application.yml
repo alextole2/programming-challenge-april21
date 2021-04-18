@@ -1,0 +1,68 @@
+spring:
+
+  # [ Active Profile ]
+  profiles:
+    active: local
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+
+  servlet:
+    multipart:
+      max-file-size: 1GB
+      max-request-size: 1GB
+
+  # [ Database configuration ]
+  jpa:
+    show-sql: true
+    database: postgresql
+    properties.hibernate.format_sql: true
+  datasource:
+    platform: postgres
+    url: ${api.datasource.url}
+    username: ${api.datasource.username}
+    password: ${api.datasource.password}
+    driver-class-name: org.postgresql.Driver
+    validation-query: SELECT 1
+    test-on-borrow: true
+
+# [ AppApi Configuration Section ]
+api:
+  baseName: movies_api
+  version: 1.0
+  datasource:
+    url: jdbc:postgresql://${postgres.hostname:localhost}:${postgres.port:5432}/movies
+    username: ${postgres.user:postgres}
+    password: ${postgres.password:123}
+
+# [ AppServer Configuration Section ]
+server:
+  host: localhost
+  port: ${service.port:8680}
+  context-path: /movies_api
+
+# [ Liquibase Configuration ]
+liquibase:
+  change-log: classpath:/db/changelog/db.changelog-master.yaml
+
+# [ AppLogin Configuration ]
+logging:
+  file: log/server.log
+  level.*: DEBUG
+
+# [ AppProfiles Configuration ]
+
+---
+spring:
+  profiles: local
+  datasource: ${api.datasource}
+endpoints:
+  cors.allowed-origins: http://localhost:3000
+
+---
+spring:
+  profiles: production
+  datasource: ${api.datasource}
+endpoints:
+  cors.allowed-origins: http://movies-frontend:8580
+
