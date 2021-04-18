@@ -52,3 +52,9 @@
 /movies-backend/build/classes/java/main/com/movies/api/movies/domain/MoviesDto.class
 /movies-backend/build/classes/java/main/com/movies/api/movies/repository/MoviesRepository.class
 /movies-backend/build/classes/java/main/com/movies/api/movies/service/MoviesService.class
+/movies-backend/build/classes/java/main/com/movies/api/ratings/domain/RatedMovies.class
+/movies-backend/build/classes/java/main/com/movies/api/ratings/domain/Ratings.class
+/movies-backend/build/classes/java/main/com/movies/api/ratings/controller/RatingsController.class
+/movies-backend/build/classes/java/main/com/movies/api/ratings/domain/RatingsDto.class
+/movies-backend/build/classes/java/main/com/movies/api/ratings/repository/RatingsRepository.class
+/movies-backend/build/classes/java/main/com/movies/api/ratings/service/RatingsService.class

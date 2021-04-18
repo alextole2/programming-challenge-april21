@@ -39,4 +39,11 @@ class MoviesApplicationTests {
         final MockHttpServletRequestBuilder mockHttpServletRequestBuilder = MockMvcRequestBuilders.get(urlTemplate);
         mockMvc.perform(mockHttpServletRequestBuilder).andExpect(status().isOk());
     }
+
+    @Test
+    void topFiveRatedMoviesTest() throws Exception {
+        final String urlTemplate = "/ratings/byTop/5";
+        final MockHttpServletRequestBuilder mockHttpServletRequestBuilder = MockMvcRequestBuilders.get(urlTemplate);
+        mockMvc.perform(mockHttpServletRequestBuilder).andExpect(status().isOk());
+    }
 }
