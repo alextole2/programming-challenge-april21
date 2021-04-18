@@ -58,3 +58,38 @@
 /movies-backend/build/classes/java/main/com/movies/api/ratings/domain/RatingsDto.class
 /movies-backend/build/classes/java/main/com/movies/api/ratings/repository/RatingsRepository.class
 /movies-backend/build/classes/java/main/com/movies/api/ratings/service/RatingsService.class
+
+/movies-frontend/.DS_Store
+/movies-frontend/.thumbs.db
+/movies-frontend/node_modules
+
+# Quasar core related directories
+/movies-frontend/.quasar
+/movies-frontend/dist
+
+# Cordova related directories and files
+/movies-frontend/src-cordova/node_modules
+/movies-frontend/src-cordova/platforms
+/movies-frontend/src-cordova/plugins
+/movies-frontend/src-cordova/www
+
+# Capacitor related directories and files
+/movies-frontend/src-capacitor/www
+/movies-frontend/src-capacitor/node_modules
+
+# BEX related directories and files
+/movies-frontend/src-bex/www
+/movies-frontend/src-bex/js/core
+
+# Log files
+/movies-frontend/npm-debug.log*
+/movies-frontend/yarn-debug.log*
+/movies-frontend/yarn-error.log*
+
+# Editor directories and files
+/movies-frontend/.idea
+/movies-frontend/.vscode
+/movies-frontend/*.suo
+/movies-frontend/*.ntvs*
+/movies-frontend/*.njsproj
+/movies-frontend/*.sln
