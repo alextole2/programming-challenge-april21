@@ -1,26 +1,27 @@
-# Quasar App (movies-frontend)
+# Movies Lens Client (movies-frontend)
 
-A Quasar Framework app
+## Technologies:
 
-## Install the dependencies
-```bash
-yarn
-```
+* Vue JS
+* JavaScript
+* HTML
+* CSS/SASS
+* Quasar Framework
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
+## Install:
 
-### Lint the files
-```bash
-yarn run lint
-```
+* npm install
+* npm i yarn
+* npm install -g quasar-cli
 
-### Build the app for production
-```bash
-quasar build
-```
+## Start the app in development mode (hot-code reloading, error reporting, etc.):
 
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+* quasar dev
+
+## Build the app for production:
+
+* quasar build
+
+## Url:
+
+* http://localhost:8080
