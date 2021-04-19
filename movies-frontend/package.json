@@ -8,7 +8,7 @@
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
     "test": "echo \"No test specified\" && exit 0",
-    "buildci": "echo \"No buildci specified\" && exit 0"
+    "buildci": "rm -r -f docker/dist && rm -f docker/nginx.conf && quasar build --prod && quasar serve --history && cp -r dist docker/ && cp nginx.conf docker/"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",

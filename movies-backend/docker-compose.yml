@@ -1,0 +1,28 @@
+version: '3.7'
+services:
+  api:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "8680:8680"
+    restart: always
+    depends_on:
+      - db
+    environment:
+      SPRING_PROFILES_ACTIVE: production
+      postgres.hostname: movies
+      postgres.port: 5432
+      postgres.user: postgres
+      postgres.password: postgres
+      endpoints.cors.allowed-origins: http://localhost:8380
+      TZ: America/Manaus
+  db:
+    restart: always
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123
+      POSTGRES_DB: movies
+    ports:
+      - "5432:5432"
