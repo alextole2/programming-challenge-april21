@@ -71,18 +71,15 @@ You must provide the following artifacts:
 
 ## Upload dataset input files into database:
 
-* ![Uploading file screenshot](https://user-images.githubusercontent.com/38573913/115170338-6974e200-a08e-11eb-92df-b65d2c6f8231.png)
-
+![Uploading file screenshot](https://user-images.githubusercontent.com/38573913/115170338-6974e200-a08e-11eb-92df-b65d2c6f8231.png)
 
 ## List movies by year and genre:
 
-* ![Movies by year and genre demo screenshot](https://user-images.githubusercontent.com/38573913/115170372-7c87b200-a08e-11eb-9a98-b1773967134b.png)
-
+![Movies by year and genre demo screenshot](https://user-images.githubusercontent.com/38573913/115170372-7c87b200-a08e-11eb-9a98-b1773967134b.png)
 
 ## List top K rated movies:
 
-* ![Top k rated movies](https://user-images.githubusercontent.com/38573913/115170395-8c9f9180-a08e-11eb-95bd-54a8855080a2.png)
-
+![Top k rated movies](https://user-images.githubusercontent.com/38573913/115170395-8c9f9180-a08e-11eb-95bd-54a8855080a2.png)
 
 ## Source-code:
 

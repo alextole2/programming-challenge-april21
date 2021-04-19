@@ -10,17 +10,18 @@
 
 ## Install:
 
-* npm install
-* npm i yarn
-* npm install -g quasar-cli
+* Using Visual Studio Code (or another) open movies-frontend folder
+* Run on terminal: npm install
+* Run on terminal: npm i yarn
+* Run on terminal: npm install -g quasar-cli
 
 ## Start the app in development mode (hot-code reloading, error reporting, etc.):
 
-* quasar dev
+* Run on terminal: quasar dev
 
 ## Build the app for production:
 
-* quasar build
+* Run on terminal: quasar build
 
 ## Url:
 
